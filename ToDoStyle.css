@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f1f1f1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+}
+
+form {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+
+label, input[type="text"], button {
+	font-size: 1em;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	flex-grow: 1;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #0095dd;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0077b3;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: #ccc;
+}
+
+footer {
+	margin-top: 30px;
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.card {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	max-width: 600px;
+	padding: 20px;
+}
